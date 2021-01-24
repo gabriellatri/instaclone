@@ -8,7 +8,7 @@
 } 
 body{
     min-height: 100vh;
-    background-color: white;
+    background-color: rgb(243, 243, 243);;
     margin-top: 29px;
     padding: 20px;
     display: flex;
@@ -23,7 +23,7 @@ body{
 }
 
 .button-app {
-    margin 0 0 0 0;
+    margin: 0 0 0 0;
     height: 60px;
 }
 
@@ -73,6 +73,7 @@ body{
 }
 
 .group {
+    background-color: white;
     border: 1px solid #dbdbdb;
     padding: 35px 50px 30px 50px;
     margin: 10px 0 10px 30px;
@@ -108,4 +109,33 @@ body{
 .link-blue {
     font-weight: bold;
     color: #0195f7;
+}
+
+@media (max-width: 875px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+    .instagram-phone{
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    body {
+        margin-top: 0;
+        background-color: white;
+        align-items: none;
+        justify-content: none;
+    }
+    .instagram-wrapper {
+        display: flex;
+        width: 450px;
+    }
+    .instagram-phone{
+        display: none;
+    }
+    .group {
+        border: 0;
+        margin-top: 0;
+        width: 450px;
+    }
 }
