@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+} 
+body{
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 29px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-wrapper {
+    display: flex;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+}
+
+.button-app {
+    margin-bottom: 0;
+    height: 60px;
+}
+
+#slideshow { 
+    position: relative;
+    /*width: 100%;
+    height: 100%;*/
+} 
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 10px; 
+    bottom: 10px;
+}
+
+.slideshow { 
+    position: relative;
+    /*top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px;*/
+} 
+
+.instagram-phone { /* replaced by .slideshow. OFF. */
+    display: flex;
+    width: auto;
+    padding: auto;
+    margin-left: 3px;
+}
+
+.instagram-continue {
+    margin-top: 0;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    border: solid 1px #efefef;
+    display: block;
+    height: 100px;
+    margin: 20px auto 10px;
+    width: 100px;
+}
+
+.group {
+    border: 1px solid #dbdbdb;
+    padding: 35px 50px 30px 50px;
+    margin: 10px 0 10px 30px;
+}
+
+.get-the-app {
+    margin: 0 0 10px 25px;
+}
+
+.button {
+    font-weight: bold;
+    border: solid #0195f7;
+    background-color: #0195f7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 20px;
+    margin-bottom: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.instagram-login {
+    font-weight: bold;
+    font-family: inherit;
+    color:white;
+}
+.link-blue {
+    font-weight: bold;
+    color: blue;
+}

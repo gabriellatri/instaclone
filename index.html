@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="instagram-wrapper">
+        <div class="instagram-phone">
+            <div id="slideshow">
+                <img class="slideshow"  src="./img/instagram-smartphone.png" />
+                <div>
+                    <img src="./img/instagram-smartphone1.png">
+                </div>
+                <div>
+                    <img src="./img/instagram-smartphone2.png">
+                </div>
+                <div>
+                    <img src="./img/instagram-smartphone3.png">
+                </div>
+                <div>
+                    <img src="./img/instagram-smartphone4.png">
+                </div>
+                <div>
+                    <img src="./img/instagram-smartphone5.png">
+                </div>
+            </div>
+        </div>
+        <div class="instagram-continue">
+            <div class="group">
+                <img src="./img/instagram-logo.png" alt="Instagram logo" />
+                <div>
+                    <img class="profile-photo" src="./img/foto-perfil.jpg" alt="Profile photo" />
+                </div>
+                <button class="button" type="button"><a href="#" class="instagram-login">Continue as
+                        gabriellatri</a></button>
+                <p class="not-account">Not gabriellatri? <span class="link-blue">Switch accounts</span></p>
+            </div>
+            <div class="group">
+                <p class="not-account">
+                    <span class="link-blue">Switch accounts</span>
+                    or
+                    <span class="link-blue">Sign Up</span>
+                </p>
+            </div>
+            <div class="get-the-app">
+                <p class="get-app">Get the app</p>
+                <div class="download">
+                    <a href="#" class="app-download">
+                        <img class="button-app" src="./img/google-play-badge.png" alt="Get app on Google Play" />
+                    </a>
+                    <a href="#" class="app-download">
+                        <img class="button-app" src="./img/applestorebutton.png" alt="Get App on Apple Store" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script>
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function () {
+            $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(0)
+                .end()
+                .appendTo('#slideshow');
+        }, 3000);
+    </script>
+</body>
+
+</html>
