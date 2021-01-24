@@ -20,7 +20,7 @@ The reference Gabriela uses is her own Instagram landing homepage, with some spe
 
 > Create the most look-alike Instagram landing homepage possible without using any kind of framework, only HTML5 and CSS3 in the most basic commands and functions.
 
-Some differences are noticeable because of the original formatting variances. The page has only one script (jQuery) for the image of a smartphone with a slide of screens of the device app. Any other resource are being used.
+Some differences are noticeable because of the original formatting variances. The page has only one script (jQuery) for the image of a smartphone with a slide of screens of the device app. Any other resources are being used.
 
 ### References
 
