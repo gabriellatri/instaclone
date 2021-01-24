@@ -1,6 +1,6 @@
 # InstaClone: the clone of Instagram login page (with user)
 
-> The purpose of this code was a trial for cloning Instagram home page stuff, with a non-responsive page opened in a computer browser.
+> The purpose of this code was a trial for cloning Instagram home page stuff, with a non-responsive page opened in a computer browser. For the original project from Digital Innovation One, click [here](http://www.github.com/gabriellatri/instagram).
 
 ---
 
