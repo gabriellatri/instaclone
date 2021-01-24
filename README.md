@@ -14,7 +14,7 @@ The layout has incomplete and unused tags and classes, which means this layout i
 
 The original project belongs to [Gabriela Pinheiro](https://github.com/SpruceGabriela) and was provided by Digital Innovation One.
 
-The reference Gabriela uses is her own Instagram landing homepage, with some specific differences that makes the differences between the original and the false page just a bit noticeable.
+The reference Gabriela uses is her own Instagram landing homepage, with some specific differences between the original and the false page just a bit noticeable.
 
 ### The InstaClone purpose
 
